@@ -1,4 +1,4 @@
-# nodejs-event-api
+# nodejs-events
 by [@brunodb3](https://github.com/brunodb3)
 
 This is a simple project I used to learn about NodeJS events.
