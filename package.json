@@ -1,0 +1,32 @@
+{
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "version": "0.0.0",
+  "name": "nodejs-event-api",
+  "description": "A simple NodeJS event-based API",
+  "author": "Bruno Duarte Brito <brunodb3@gmail.com>",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunodb3/nodejs-event-api.git"
+  },
+  "keywords": [
+    "api",
+    "events",
+    "nodejs"
+  ],
+  "dependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
